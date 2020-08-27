@@ -1,15 +1,15 @@
 const Engine = Matter.Engine;
 const World= Matter.World;
 const Bodies = Matter.Bodies;
-
+// creating variables
 var engine, world;
 var box1, pig1;
 var backgroundImg,platform;
-
+//preload
 function preload() {
     backgroundImg = loadImage("sprites/bg.png");
 }
-
+// create sprites
 function setup(){
     var canvas = createCanvas(1200,400);
     engine = Engine.create();
